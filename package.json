@@ -1,0 +1,14 @@
+{
+  "name": "blockchain-voting-system",
+  "version": "1.0.0",
+  "description": "Full-stack Blockchain Voting System",
+  "private": true,
+  "scripts": {
+    "start:backend": "cd backend && npm run dev",
+    "start:frontend": "cd frontend && npm start",
+    "dev": "concurrently \"npm run start:backend\" \"npm run start:frontend\" --names \"BACKEND,FRONTEND\" --prefix-colors \"blue.bold,cyan.bold\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

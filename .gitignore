@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment variables & secrets
+.env
+backend/.env
+*.env.local
+
+# Production build artifacts
+frontend/build/
+build/
+dist/
+
+# SQLite & local database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs & temp files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+FINE.TXT
+
+# OS metadata
+.DS_Store
+Thumbs.db
