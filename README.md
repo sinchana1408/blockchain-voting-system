@@ -1,10 +1,10 @@
-# 🗳️ VoteChain Core — Enterprise Blockchain Voting System
+#  BlockChain Voting System
 
 A decentralized, full-stack blockchain voting platform featuring **SHA-256 Proof-of-Work consensus**, **zero-knowledge verifiable voter receipts**, **real-time WebSocket ledger synchronization**, and **cryptographic tamper auditing**.
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 
 - **Decentralized Cryptographic Ledger:** Blocks linked by SHA-256 hashes and verified with Proof-of-Work difficulty nonces.
 - **Zero-Knowledge Voter Receipts:** Every cast ballot generates an auditable cryptographic receipt key (`VCT-...`) allowing voters to verify on-chain inclusion without revealing ballot secrecy.
@@ -16,7 +16,7 @@ A decentralized, full-stack blockchain voting platform featuring **SHA-256 Proof
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 - **Frontend:** React 18, Socket.IO Client, Vanilla CSS Design System, Plus Jakarta Sans, JetBrains Mono
 - **Backend:** Node.js, Express, Socket.IO, MySQL (`mysql2/promise`), JWT, BcryptJS, Crypto (SHA-256)
@@ -24,7 +24,7 @@ A decentralized, full-stack blockchain voting platform featuring **SHA-256 Proof
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Prerequisites
 - [Node.js](https://nodejs.org/) (v18+)
